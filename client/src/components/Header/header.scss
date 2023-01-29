@@ -1,0 +1,24 @@
+.header {
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  margin-bottom: 70px;
+
+  &_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+  }
+
+  &_logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #d23669;
+  }
+
+  &_btns {
+    display: flex;
+    gap: 20px;
+  }
+}
